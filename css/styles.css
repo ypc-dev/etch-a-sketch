@@ -1,6 +1,6 @@
 body {
   background: linear-gradient(rgba(255,255,255,0.6), rgba(255,255,255,0.6)),
-  url('../images/Whangaehu.png');
+  url('/images/Whangaehu.png');
   font-family: 'Cabin Sketch', cursive;
 }
 
