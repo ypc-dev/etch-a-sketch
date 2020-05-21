@@ -1,14 +1,13 @@
 body {
   background: linear-gradient(rgba(255,255,255,0.6), rgba(255,255,255,0.6)),
   url('/images/Whangaehu.png');
-  /* background-image: url("/images/Whangaehu.png"); */
   font-family: 'Cabin Sketch', cursive;
 }
 
 .header {
   font-size: 5rem;
   width: 60%;
-  margin: 2rem auto;
+  margin: 1rem auto;
   text-align: center;
   margin-bottom: 0;
 }
@@ -21,7 +20,7 @@ body {
   justify-content: flex-start;
 }
 
-/* buttons */
+/* Buttons */
 button {
   margin: 1rem 1rem;
   padding: 5px 25px;
@@ -41,14 +40,6 @@ button:hover {
   background-color: palegreen;
 }
 
-#black-btn {
-
-}
-
-#random-btn {
-
-}
-
 #reset-btn {
   margin-left: auto;
   background-color: orange;
@@ -57,8 +48,6 @@ button:hover {
 /* Grid */
 .container {
   display: grid;
-  /* grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr; */
   margin: 2rem auto;
   width: 560px;
   height: 560px;
@@ -66,7 +55,7 @@ button:hover {
   background-color: white;
 }
 
-.item {
+.pixel {
   background-color: white;
   margin: 0px;
   padding: 0px;
